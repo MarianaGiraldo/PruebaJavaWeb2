@@ -17,6 +17,18 @@ public class Address {
     private String postalCode;
     private String country;
 
+    public Address(String street, String city, String state, String postalCode, String country) {
+        this.street = street;
+        this.city = city;
+        this.state = state;
+        this.postalCode = postalCode;
+        this.country = country;
+    }
+
+    public Address() {
+    }
+
+    
     /**
      * @return the street
      */
@@ -104,6 +116,23 @@ public class Address {
                 + this.getPostalCode()
                 + ".";
         return label;
+    }
+    
+    //CRUD
+    public String consultAddress(){
+        return "La dirección ha sido encontrada exitosamente";
+    }
+    
+    public String editAddress(){
+        return "La dirección ha sido editada exitosamente";
+    }
+    
+    public String deleteAddress(){
+        return "La dirección ha sido eeliminada exitosamente";
+    }
+    
+    public String insertAddress(){
+       return "La dirección se ha ingresado correctamente"; 
     }
     
 }

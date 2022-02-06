@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
     Created on : 31/01/2022, 08:51:50 AM
-    Author     : SENA
+    Author     : Mariana
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -24,17 +24,24 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="Views/crear_estudiante.jsp">Estudiante</a>
+                    <a class="nav-link" href="Views/tipo_usuario.jsp">Usuario</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="Views/crear_profesor.jsp">Profesor</a>
+                    <a class="nav-link" href="Views/form_parking.jsp">Parqueadero</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="Views/crear_direccion.jsp">Direccion</a>
+                    <a class="nav-link" href="Views/form_direccion.jsp">Direccion</a>
                   </li>
                 </ul>
                 <span class="navbar-text">
-                  Otros
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link" href="Views/login.jsp">Login</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Views/logout.jsp">Logout</a>
+                        </li>
+                    </ul>
                 </span>
               </div>
             </div>

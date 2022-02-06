@@ -5,7 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE httml>
+<!DOCTYPE html>
     <head>
         <meta http-equiv="Content-Type" content="ml; charset=UTF-8">
         <!--Bootstrap -->

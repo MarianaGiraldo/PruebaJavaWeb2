@@ -5,20 +5,20 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE httml>
+<!DOCTYPE html>
     <head>
         <meta http-equiv="Content-Type" content="ml; charset=UTF-8">
         <!--Bootstrap -->
         <%@include file="../components/bootstrap.jsp" %>
-        <title>Crear Estudiante</title>
+        <title>Admin Estudiante</title>
     </head>
     <body class="bg-light">
         <%@include file="../components/nav.jsp" %>
-        <div class="container m-4">
+        <div class="container mt-4">
             <div class="m-auto w-75 p-3 bg-success bg-opacity-25 rounded">
-                <h1>Crear Estudiante</h1>
+                <h1>Admin Estudiante</h1>
 
-                <form name="crear_estudiante" action="principal.jsp" method="GET" class="row p-3">
+                <form name="crear_estudiante" action="../Controllers/users_controller.jsp" method="GET" class="row p-3">
                     <%@include file="../components/form_persona.jsp" %>
                     <div class="col-md-6">
                         <label for="txtCodEstudiante" class="form-label">Codigo de Estudiante</label>
@@ -30,9 +30,17 @@
                         <input type="text" class="form-control" name="txtNotaPromedio" id="txtNotaPromedio" 
                            value=""/> <br/>
                     </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <div class="col-md-3">
+                        <input type="submit" value="Crear" class="btn btn-success w-75" name="btnCrear" /> 
+                    </div>
+                    <div class="col-md-3">
+                        <input type="submit" value="Consultar" class="btn btn-primary w-75" name="btnConsultar"/>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="submit" value="Modificar" class="btn btn-warning w-75" name="btnModificar"/>
+                    </div>
                 </form>
-
+                <a type="button" class="btn btn-light mx-3 mt-3" href="../" >Regresar</a>
             </div>
         </div>
         

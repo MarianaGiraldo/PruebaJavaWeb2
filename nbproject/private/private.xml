@@ -2,6 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/NetBeansJavaWeb/PruebaJavaWeb2/web/Views/form_direccion.jsp</file>
+            <file>file:/C:/NetBeansJavaWeb/PruebaJavaWeb2/web/Controllers/parking_controller.jsp</file>
+            <file>file:/C:/NetBeansJavaWeb/PruebaJavaWeb2/src/java/Models/Parking.java</file>
+            <file>file:/C:/NetBeansJavaWeb/PruebaJavaWeb2/web/Views/form_parking.jsp</file>
+            <file>file:/C:/NetBeansJavaWeb/PruebaJavaWeb2/web/Views/view_parking.jsp</file>
+            <file>file:/C:/NetBeansJavaWeb/PruebaJavaWeb2/web/Views/view_direccion.jsp</file>
+            <file>file:/C:/NetBeansJavaWeb/PruebaJavaWeb2/web/index.jsp</file>
+        </group>
     </open-files>
 </project-private>
